@@ -21,7 +21,7 @@
 		<Item Name="调试助手.vi" Type="VI" URL="../调试助手.vi"/>
 		<Item Name="保存配置.vi" Type="VI" URL="../子VI/配置/保存配置.vi"/>
 		<Item Name="读取配置.vi" Type="VI" URL="../子VI/配置/读取配置.vi"/>
-		<Item Name="获取时间.vi" Type="VI" URL="/C/Users/weish/Desktop/客户端程序/子VI/获取时间/获取时间.vi"/>
+		<Item Name="获取时间.vi" Type="VI" URL="../子VI/获取时间.vi"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
