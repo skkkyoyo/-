@@ -15,7 +15,6 @@
 		<Item Name="获取IP.vi" Type="VI" URL="../子VI/获取本机ip/获取IP.vi"/>
 		<Item Name="抓取天气查询.vi" Type="VI" URL="../子VI/天气查询/抓取天气查询.vi"/>
 		<Item Name="图标.ico" Type="Document" URL="../picture/图标.ico"/>
-		<Item Name="透明背景.ctl" Type="VI" URL="../../学习/PNG _demo/透明背景.ctl"/>
 		<Item Name="显示图片.vi" Type="VI" URL="../子VI/显示图片/显示图片.vi"/>
 		<Item Name="自定义菜单.rtm" Type="Document" URL="../自定义菜单.rtm"/>
 		<Item Name="调试助手.vi" Type="VI" URL="../调试助手.vi"/>
@@ -80,6 +79,7 @@
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 			</Item>
+			<Item Name="透明背景.ctl" Type="VI" URL="../子VI/控件/透明背景.ctl"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
 			<Item Name="太阳能清扫控制器客户端安装程序" Type="Installer">
