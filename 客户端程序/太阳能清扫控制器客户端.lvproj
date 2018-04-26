@@ -11,6 +11,9 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="和风天气图标" Type="Folder" URL="../和风天气图标">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
 		<Item Name="获取IP.vi" Type="VI" URL="../子VI/获取本机ip/获取IP.vi"/>
 		<Item Name="抓取天气查询.vi" Type="VI" URL="../子VI/天气查询/抓取天气查询.vi"/>
@@ -230,6 +233,246 @@
 				<Property Name="TgtF_productName" Type="Str">太阳能清扫器客户端</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{55768897-7EC3-448E-8D15-1320927A2D57}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">太阳能清扫器客户端.exe</Property>
+			</Item>
+			<Item Name="太阳能屋顶清扫机器人的控制器上位机" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{601DC2FA-46FF-42BC-9BBB-22341282873C}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{F32F28CE-0B79-4E00-A80B-8A9622DA080F}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{5A5A80A6-5C6F-4AFB-BF86-8CEA9E7864DA}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">太阳能屋顶清扫机器人的控制器上位机</Property>
+				<Property Name="Bld_defaultLanguage" Type="Str">ChineseS</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/太阳能屋顶清扫机器人的控制器上位机</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{BCC407E5-6213-4D85-A099-E171DB8D83C0}</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.minor" Type="Int">1</Property>
+				<Property Name="Bld_version.patch" Type="Int">2</Property>
+				<Property Name="Destination[0].destName" Type="Str">太阳能屋顶清扫机器人的控制器上位机.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/太阳能屋顶清扫机器人的控制器上位机/太阳能屋顶清扫机器人的控制器上位机.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">支持目录</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/太阳能屋顶清扫机器人的控制器上位机/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/我的电脑/图标.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{A08CADA3-376A-4C84-9378-445A7E158BD9}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/main.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">太阳能屋顶清扫机器人的控制器上位机</Property>
+				<Property Name="TgtF_internalName" Type="Str">太阳能屋顶清扫机器人的控制器上位机</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">版权 2018 </Property>
+				<Property Name="TgtF_productName" Type="Str">太阳能屋顶清扫机器人的控制器上位机</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{7FE0EB6C-A019-4D75-A410-812B096C8D44}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">太阳能屋顶清扫机器人的控制器上位机.exe</Property>
+			</Item>
+			<Item Name="太阳能屋顶清扫机器人的控制器上位机安装程序" Type="Installer">
+				<Property Name="Destination[0].name" Type="Str">太阳能清扫控制器客户端</Property>
+				<Property Name="Destination[0].parent" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
+				<Property Name="Destination[0].tag" Type="Str">{51BA0F3A-FDD9-4F5B-B1B8-181A761ABE18}</Property>
+				<Property Name="Destination[0].type" Type="Str">userFolder</Property>
+				<Property Name="DestinationCount" Type="Int">1</Property>
+				<Property Name="DistPart[0].flavorID" Type="Str">DefaultFull</Property>
+				<Property Name="DistPart[0].productID" Type="Str">{448569AE-EE10-456F-B3A6-CA1D862E2E9C}</Property>
+				<Property Name="DistPart[0].productName" Type="Str">NI LabVIEW运行引擎 2016</Property>
+				<Property Name="DistPart[0].SoftDep[0].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[0].productName" Type="Str">NI LabVIEW运行引擎 2016非英语语言支持</Property>
+				<Property Name="DistPart[0].SoftDep[0].upgradeCode" Type="Str">{72AEEB03-DF6A-4C90-B44E-22B1E74CF14F}</Property>
+				<Property Name="DistPart[0].SoftDep[1].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[1].productName" Type="Str">NI ActiveX容器</Property>
+				<Property Name="DistPart[0].SoftDep[1].upgradeCode" Type="Str">{1038A887-23E1-4289-B0BD-0C4B83C6BA21}</Property>
+				<Property Name="DistPart[0].SoftDep[10].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[10].productName" Type="Str">NI VC2015 Runtime</Property>
+				<Property Name="DistPart[0].SoftDep[10].upgradeCode" Type="Str">{D42E7BAE-6589-4570-B6A3-3E28889392E7}</Property>
+				<Property Name="DistPart[0].SoftDep[11].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[11].productName" Type="Str">NI mDNS Responder 14.0</Property>
+				<Property Name="DistPart[0].SoftDep[11].upgradeCode" Type="Str">{9607874B-4BB3-42CB-B450-A2F5EF60BA3B}</Property>
+				<Property Name="DistPart[0].SoftDep[12].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[12].productName" Type="Str">NI Deployment Framework 2016</Property>
+				<Property Name="DistPart[0].SoftDep[12].upgradeCode" Type="Str">{838942E4-B73C-492E-81A3-AA1E291FD0DC}</Property>
+				<Property Name="DistPart[0].SoftDep[13].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[13].productName" Type="Str">NI错误报告 2016</Property>
+				<Property Name="DistPart[0].SoftDep[13].upgradeCode" Type="Str">{42E818C6-2B08-4DE7-BD91-B0FD704C119A}</Property>
+				<Property Name="DistPart[0].SoftDep[2].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[2].productName" Type="Str">NI系统Web服务器 16.0</Property>
+				<Property Name="DistPart[0].SoftDep[2].upgradeCode" Type="Str">{FCF64B73-B7D4-4971-8F11-24BAF7CC3E6C}</Property>
+				<Property Name="DistPart[0].SoftDep[3].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[3].productName" Type="Str">数学核心库</Property>
+				<Property Name="DistPart[0].SoftDep[3].upgradeCode" Type="Str">{F34FFCA8-C4CB-47CC-8B81-C4E95E227355}</Property>
+				<Property Name="DistPart[0].SoftDep[4].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[4].productName" Type="Str">NI Logos 5.8</Property>
+				<Property Name="DistPart[0].SoftDep[4].upgradeCode" Type="Str">{5E4A4CE3-4D06-11D4-8B22-006008C16337}</Property>
+				<Property Name="DistPart[0].SoftDep[5].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[5].productName" Type="Str">NI TDM Streaming 16.0</Property>
+				<Property Name="DistPart[0].SoftDep[5].upgradeCode" Type="Str">{4CD11BE6-6BB7-4082-8A27-C13771BC309B}</Property>
+				<Property Name="DistPart[0].SoftDep[6].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[6].productName" Type="Str">NI LabVIEW Web服务器 2016</Property>
+				<Property Name="DistPart[0].SoftDep[6].upgradeCode" Type="Str">{6A61A967-C04E-47A1-8D08-DF27332A78AB}</Property>
+				<Property Name="DistPart[0].SoftDep[7].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[7].productName" Type="Str">NI LabVIEW Real-Time NBFifo 2016</Property>
+				<Property Name="DistPart[0].SoftDep[7].upgradeCode" Type="Str">{718F68F2-14F0-4656-A29E-617F12A7343B}</Property>
+				<Property Name="DistPart[0].SoftDep[8].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[8].productName" Type="Str">NI VC2008MSMs</Property>
+				<Property Name="DistPart[0].SoftDep[8].upgradeCode" Type="Str">{FDA3F8BB-BAA9-45D7-8DC7-22E1F5C76315}</Property>
+				<Property Name="DistPart[0].SoftDep[9].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[9].productName" Type="Str">NI VC2010MSMs</Property>
+				<Property Name="DistPart[0].SoftDep[9].upgradeCode" Type="Str">{EFBA6F9E-F934-4BD7-AC51-60CCA480489C}</Property>
+				<Property Name="DistPart[0].SoftDepCount" Type="Int">14</Property>
+				<Property Name="DistPart[0].upgradeCode" Type="Str">{E7DBF016-365A-40B6-9526-B4D0B4830F51}</Property>
+				<Property Name="DistPartCount" Type="Int">1</Property>
+				<Property Name="INST_autoIncrement" Type="Bool">true</Property>
+				<Property Name="INST_buildLocation" Type="Path">../builds/太阳能清扫控制器客户端/太阳能屋顶清扫机器人的控制器上位机安装程序</Property>
+				<Property Name="INST_buildLocation.type" Type="Str">relativeToCommon</Property>
+				<Property Name="INST_buildSpecName" Type="Str">太阳能屋顶清扫机器人的控制器上位机安装程序</Property>
+				<Property Name="INST_defaultDir" Type="Str">{51BA0F3A-FDD9-4F5B-B1B8-181A761ABE18}</Property>
+				<Property Name="INST_language" Type="Int">2052</Property>
+				<Property Name="INST_productName" Type="Str">太阳能清扫控制器客户端</Property>
+				<Property Name="INST_productVersion" Type="Str">0.1.3</Property>
+				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
+				<Property Name="InstSpecVersion" Type="Str">16008010</Property>
+				<Property Name="MSI_autoselectDrivers" Type="Bool">true</Property>
+				<Property Name="MSI_distID" Type="Str">{EE1B8B03-8AA7-480B-9AB9-B82420D54E24}</Property>
+				<Property Name="MSI_hideNonRuntimes" Type="Bool">true</Property>
+				<Property Name="MSI_osCheck" Type="Int">0</Property>
+				<Property Name="MSI_upgradeCode" Type="Str">{39DC8105-BAEA-4AFD-8C95-455195239933}</Property>
+				<Property Name="MSI_windowMessage" Type="Str">太阳能屋顶清扫机器人的控制器上位机</Property>
+				<Property Name="MSI_windowTitle" Type="Str">欢迎使用太阳能屋顶清扫机器人的控制器上位机</Property>
+				<Property Name="RegDest[0].dirName" Type="Str">Software</Property>
+				<Property Name="RegDest[0].dirTag" Type="Str">{DDFAFC8B-E728-4AC8-96DE-B920EBB97A86}</Property>
+				<Property Name="RegDest[0].parentTag" Type="Str">2</Property>
+				<Property Name="RegDestCount" Type="Int">1</Property>
+				<Property Name="Source[0].dest" Type="Str">{51BA0F3A-FDD9-4F5B-B1B8-181A761ABE18}</Property>
+				<Property Name="Source[0].File[0].dest" Type="Str">{51BA0F3A-FDD9-4F5B-B1B8-181A761ABE18}</Property>
+				<Property Name="Source[0].File[0].name" Type="Str">薄雾.png</Property>
+				<Property Name="Source[0].File[0].tag" Type="Ref">/我的电脑/和风天气图标/薄雾.png</Property>
+				<Property Name="Source[0].FileCount" Type="Int">1</Property>
+				<Property Name="Source[0].name" Type="Str">和风天气图标</Property>
+				<Property Name="Source[0].tag" Type="Ref">/我的电脑/和风天气图标</Property>
+				<Property Name="Source[0].type" Type="Str">Folder</Property>
+				<Property Name="Source[1].dest" Type="Str">{ADBEF75D-3503-45AB-A9C0-CC2BC3DD352D}</Property>
+				<Property Name="Source[1].File[0].dest" Type="Str">{ADBEF75D-3503-45AB-A9C0-CC2BC3DD352D}</Property>
+				<Property Name="Source[1].File[0].name" Type="Str">太阳能屋顶清扫机器人的控制器上位机.exe</Property>
+				<Property Name="Source[1].File[0].runEXE" Type="Bool">true</Property>
+				<Property Name="Source[1].File[0].Shortcut[0].destIndex" Type="Int">0</Property>
+				<Property Name="Source[1].File[0].Shortcut[0].name" Type="Str">太阳能屋顶清扫机器人的控制器上位机</Property>
+				<Property Name="Source[1].File[0].Shortcut[0].subDir" Type="Str">太阳能清扫控制器客户端</Property>
+				<Property Name="Source[1].File[0].Shortcut[1].destIndex" Type="Int">3</Property>
+				<Property Name="Source[1].File[0].Shortcut[1].name" Type="Str">太阳能屋顶清扫机器人的控制器上位机</Property>
+				<Property Name="Source[1].File[0].Shortcut[1].subDir" Type="Str">太阳能清扫控制器客户端</Property>
+				<Property Name="Source[1].File[0].ShortcutCount" Type="Int">2</Property>
+				<Property Name="Source[1].File[0].tag" Type="Str">{7FE0EB6C-A019-4D75-A410-812B096C8D44}</Property>
+				<Property Name="Source[1].FileCount" Type="Int">1</Property>
+				<Property Name="Source[1].name" Type="Str">太阳能屋顶清扫机器人的控制器上位机</Property>
+				<Property Name="Source[1].tag" Type="Ref">/我的电脑/程序生成规范/太阳能屋顶清扫机器人的控制器上位机</Property>
+				<Property Name="Source[1].type" Type="Str">EXE</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+			</Item>
+			<Item Name="太阳能清扫控制器上位机安装程序" Type="Installer">
+				<Property Name="Destination[0].name" Type="Str">太阳能清扫控制器客户端</Property>
+				<Property Name="Destination[0].parent" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
+				<Property Name="Destination[0].tag" Type="Str">{E7CBFEA6-8A3E-47DF-96B5-535EABE62162}</Property>
+				<Property Name="Destination[0].type" Type="Str">userFolder</Property>
+				<Property Name="DestinationCount" Type="Int">1</Property>
+				<Property Name="DistPart[0].flavorID" Type="Str">DefaultFull</Property>
+				<Property Name="DistPart[0].productID" Type="Str">{448569AE-EE10-456F-B3A6-CA1D862E2E9C}</Property>
+				<Property Name="DistPart[0].productName" Type="Str">NI LabVIEW运行引擎 2016</Property>
+				<Property Name="DistPart[0].SoftDep[0].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[0].productName" Type="Str">NI LabVIEW运行引擎 2016非英语语言支持</Property>
+				<Property Name="DistPart[0].SoftDep[0].upgradeCode" Type="Str">{72AEEB03-DF6A-4C90-B44E-22B1E74CF14F}</Property>
+				<Property Name="DistPart[0].SoftDep[1].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[1].productName" Type="Str">NI ActiveX容器</Property>
+				<Property Name="DistPart[0].SoftDep[1].upgradeCode" Type="Str">{1038A887-23E1-4289-B0BD-0C4B83C6BA21}</Property>
+				<Property Name="DistPart[0].SoftDep[10].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[10].productName" Type="Str">NI VC2015 Runtime</Property>
+				<Property Name="DistPart[0].SoftDep[10].upgradeCode" Type="Str">{D42E7BAE-6589-4570-B6A3-3E28889392E7}</Property>
+				<Property Name="DistPart[0].SoftDep[11].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[11].productName" Type="Str">NI mDNS Responder 14.0</Property>
+				<Property Name="DistPart[0].SoftDep[11].upgradeCode" Type="Str">{9607874B-4BB3-42CB-B450-A2F5EF60BA3B}</Property>
+				<Property Name="DistPart[0].SoftDep[12].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[12].productName" Type="Str">NI Deployment Framework 2016</Property>
+				<Property Name="DistPart[0].SoftDep[12].upgradeCode" Type="Str">{838942E4-B73C-492E-81A3-AA1E291FD0DC}</Property>
+				<Property Name="DistPart[0].SoftDep[13].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[13].productName" Type="Str">NI错误报告 2016</Property>
+				<Property Name="DistPart[0].SoftDep[13].upgradeCode" Type="Str">{42E818C6-2B08-4DE7-BD91-B0FD704C119A}</Property>
+				<Property Name="DistPart[0].SoftDep[2].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[2].productName" Type="Str">NI系统Web服务器 16.0</Property>
+				<Property Name="DistPart[0].SoftDep[2].upgradeCode" Type="Str">{FCF64B73-B7D4-4971-8F11-24BAF7CC3E6C}</Property>
+				<Property Name="DistPart[0].SoftDep[3].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[3].productName" Type="Str">数学核心库</Property>
+				<Property Name="DistPart[0].SoftDep[3].upgradeCode" Type="Str">{F34FFCA8-C4CB-47CC-8B81-C4E95E227355}</Property>
+				<Property Name="DistPart[0].SoftDep[4].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[4].productName" Type="Str">NI Logos 5.8</Property>
+				<Property Name="DistPart[0].SoftDep[4].upgradeCode" Type="Str">{5E4A4CE3-4D06-11D4-8B22-006008C16337}</Property>
+				<Property Name="DistPart[0].SoftDep[5].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[5].productName" Type="Str">NI TDM Streaming 16.0</Property>
+				<Property Name="DistPart[0].SoftDep[5].upgradeCode" Type="Str">{4CD11BE6-6BB7-4082-8A27-C13771BC309B}</Property>
+				<Property Name="DistPart[0].SoftDep[6].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[6].productName" Type="Str">NI LabVIEW Web服务器 2016</Property>
+				<Property Name="DistPart[0].SoftDep[6].upgradeCode" Type="Str">{6A61A967-C04E-47A1-8D08-DF27332A78AB}</Property>
+				<Property Name="DistPart[0].SoftDep[7].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[7].productName" Type="Str">NI LabVIEW Real-Time NBFifo 2016</Property>
+				<Property Name="DistPart[0].SoftDep[7].upgradeCode" Type="Str">{718F68F2-14F0-4656-A29E-617F12A7343B}</Property>
+				<Property Name="DistPart[0].SoftDep[8].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[8].productName" Type="Str">NI VC2008MSMs</Property>
+				<Property Name="DistPart[0].SoftDep[8].upgradeCode" Type="Str">{FDA3F8BB-BAA9-45D7-8DC7-22E1F5C76315}</Property>
+				<Property Name="DistPart[0].SoftDep[9].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[9].productName" Type="Str">NI VC2010MSMs</Property>
+				<Property Name="DistPart[0].SoftDep[9].upgradeCode" Type="Str">{EFBA6F9E-F934-4BD7-AC51-60CCA480489C}</Property>
+				<Property Name="DistPart[0].SoftDepCount" Type="Int">14</Property>
+				<Property Name="DistPart[0].upgradeCode" Type="Str">{E7DBF016-365A-40B6-9526-B4D0B4830F51}</Property>
+				<Property Name="DistPartCount" Type="Int">1</Property>
+				<Property Name="INST_autoIncrement" Type="Bool">true</Property>
+				<Property Name="INST_buildLocation" Type="Path">../builds/太阳能清扫控制器客户端/太阳能清扫控制器上位机安装程序</Property>
+				<Property Name="INST_buildLocation.type" Type="Str">relativeToCommon</Property>
+				<Property Name="INST_buildSpecName" Type="Str">太阳能清扫控制器上位机安装程序</Property>
+				<Property Name="INST_defaultDir" Type="Str">{E7CBFEA6-8A3E-47DF-96B5-535EABE62162}</Property>
+				<Property Name="INST_language" Type="Int">2052</Property>
+				<Property Name="INST_productName" Type="Str">太阳能清扫控制器客户端</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.1</Property>
+				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
+				<Property Name="InstSpecVersion" Type="Str">16008010</Property>
+				<Property Name="MSI_autoselectDrivers" Type="Bool">true</Property>
+				<Property Name="MSI_distID" Type="Str">{E751E298-CA33-4497-A3A3-A11258C2685C}</Property>
+				<Property Name="MSI_hideNonRuntimes" Type="Bool">true</Property>
+				<Property Name="MSI_osCheck" Type="Int">0</Property>
+				<Property Name="MSI_upgradeCode" Type="Str">{275B950F-3D15-4A54-9620-198113A232F8}</Property>
+				<Property Name="MSI_windowMessage" Type="Str">欢迎使用太阳能清扫控制器上位机安装程序</Property>
+				<Property Name="MSI_windowTitle" Type="Str">太阳能清扫控制器上位机安装程序</Property>
+				<Property Name="RegDest[0].dirName" Type="Str">Software</Property>
+				<Property Name="RegDest[0].dirTag" Type="Str">{DDFAFC8B-E728-4AC8-96DE-B920EBB97A86}</Property>
+				<Property Name="RegDest[0].parentTag" Type="Str">2</Property>
+				<Property Name="RegDestCount" Type="Int">1</Property>
+				<Property Name="Source[0].dest" Type="Str">{ADBEF75D-3503-45AB-A9C0-CC2BC3DD352D}</Property>
+				<Property Name="Source[0].File[0].dest" Type="Str">{ADBEF75D-3503-45AB-A9C0-CC2BC3DD352D}</Property>
+				<Property Name="Source[0].File[0].name" Type="Str">太阳能屋顶清扫机器人的控制器上位机.exe</Property>
+				<Property Name="Source[0].File[0].runEXE" Type="Bool">true</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].destIndex" Type="Int">0</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].name" Type="Str">太阳能屋顶清扫机器人的控制器上位机</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].subDir" Type="Str">太阳能清扫控制器客户端</Property>
+				<Property Name="Source[0].File[0].ShortcutCount" Type="Int">1</Property>
+				<Property Name="Source[0].File[0].tag" Type="Str">{7FE0EB6C-A019-4D75-A410-812B096C8D44}</Property>
+				<Property Name="Source[0].FileCount" Type="Int">1</Property>
+				<Property Name="Source[0].name" Type="Str">太阳能屋顶清扫机器人的控制器上位机</Property>
+				<Property Name="Source[0].tag" Type="Ref">/我的电脑/程序生成规范/太阳能屋顶清扫机器人的控制器上位机</Property>
+				<Property Name="Source[0].type" Type="Str">EXE</Property>
+				<Property Name="Source[1].dest" Type="Str">{ADBEF75D-3503-45AB-A9C0-CC2BC3DD352D}</Property>
+				<Property Name="Source[1].File[0].dest" Type="Str">{ADBEF75D-3503-45AB-A9C0-CC2BC3DD352D}</Property>
+				<Property Name="Source[1].File[0].name" Type="Str">薄雾.png</Property>
+				<Property Name="Source[1].File[0].tag" Type="Ref">/我的电脑/和风天气图标/薄雾.png</Property>
+				<Property Name="Source[1].FileCount" Type="Int">1</Property>
+				<Property Name="Source[1].name" Type="Str">和风天气图标</Property>
+				<Property Name="Source[1].tag" Type="Ref">/我的电脑/和风天气图标</Property>
+				<Property Name="Source[1].type" Type="Str">Folder</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
 			</Item>
 		</Item>
 	</Item>
