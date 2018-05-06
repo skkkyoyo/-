@@ -1,0 +1,53 @@
+https://jingyan.baidu.com/article/a501d80c150ebdec630f5e1f.html
+
+在电脑的任意的地方新建一个bat文件，再其中写入如下文字：
+
+@ echo off
+
+:a
+
+set /p a=输入你所需要关闭程序的标题：
+
+taskkill /f /fi "WINDOWTITLE eq %a%"
+
+goto a
+
+然后保存后关闭。
+
+cmd /c TASKKILL /f /fi "WINDOWTITLE eq Mojo-Webqq
+
+cmd /c TASKKILL /F /IM notepad.exe 
+
+pause
+exit
+
+想让bat运行时隐藏cmd窗口，最好的方法是使用vbs文件实现，
+
+1、新建一个文本文档，改名为123.vbs，编辑内容：
+
+set ws=WScript.CreateObject("WScript.Shell") 
+
+ws.Run "yy.bat",0
+
+yy.bat是同目录下的批处理文件。双击123.vbs，即可运行批处理文件，但没有cmd窗口弹出。
+
+缺点：
+这种方法可以隐藏cmd窗口，但不能隐藏bat中打开的第三方窗口。
+如yy.bat的内容为：WinRAR.exe x  D:\mm.tar D:\mm22
+（解压tar文件）
+运行123.vbs时，WinRAR的解压窗口是可以看到的。
+
+
+方法2：编辑bat文件，在开头处写入
+
+@echo off
+
+if "%1" == "h" goto begin
+
+mshtavbscript:createobject("wscript.shell").run("""%~nx0"" h",0)(window.close)&&exit
+
+:begin
+
+REM
+
+缺点：这个方法运行bat时，cmd窗口还是闪了一下。
